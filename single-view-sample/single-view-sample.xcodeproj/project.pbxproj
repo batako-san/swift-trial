@@ -14,6 +14,7 @@
 		D790B0E31EE98AC20085DEA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D790B0E11EE98AC20085DEA8 /* LaunchScreen.storyboard */; };
 		D790B0EE1EE98AC20085DEA8 /* single_view_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790B0ED1EE98AC20085DEA8 /* single_view_sampleTests.swift */; };
 		D790B0F91EE98AC20085DEA8 /* single_view_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790B0F81EE98AC20085DEA8 /* single_view_sampleUITests.swift */; };
+		D790B1071EE9908F0085DEA8 /* swift_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D790B1061EE9908F0085DEA8 /* swift_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D790B0F41EE98AC20085DEA8 /* single-view-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "single-view-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D790B0F81EE98AC20085DEA8 /* single_view_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = single_view_sampleUITests.swift; sourceTree = "<group>"; };
 		D790B0FA1EE98AC20085DEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D790B1061EE9908F0085DEA8 /* swift_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swift_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D790B0D81EE98AC20085DEA8 /* AppDelegate.swift */,
 				D790B0DA1EE98AC20085DEA8 /* ViewController.swift */,
 				D790B0DC1EE98AC20085DEA8 /* Main.storyboard */,
+				D790B1061EE9908F0085DEA8 /* swift_logo.png */,
 				D790B0DF1EE98AC20085DEA8 /* Assets.xcassets */,
 				D790B0E11EE98AC20085DEA8 /* LaunchScreen.storyboard */,
 				D790B0E41EE98AC20085DEA8 /* Info.plist */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D790B0E31EE98AC20085DEA8 /* LaunchScreen.storyboard in Resources */,
+				D790B1071EE9908F0085DEA8 /* swift_logo.png in Resources */,
 				D790B0E01EE98AC20085DEA8 /* Assets.xcassets in Resources */,
 				D790B0DE1EE98AC20085DEA8 /* Main.storyboard in Resources */,
 			);
@@ -505,6 +509,7 @@
 				D790B0FF1EE98AC20085DEA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D790B1001EE98AC20085DEA8 /* Build configuration list for PBXNativeTarget "single-view-sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				D790B1021EE98AC20085DEA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D790B1031EE98AC20085DEA8 /* Build configuration list for PBXNativeTarget "single-view-sampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				D790B1051EE98AC20085DEA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
